@@ -1,0 +1,372 @@
+@charset "ISO-8859-1";
+
+tr{
+	height : 75px;	
+}
+table{	
+	border-spacing:1px 1px;
+	margin: auto;
+}
+
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(52, 183, 255);
+}
+
+.li {
+  float: right;
+}
+
+a {
+  display: block;
+  text-align: center;
+  padding: 13px 20px;
+  text-decoration: none;
+  font-size:20px;
+  font-weight:bold;
+}
+
+a:hover {
+  background-color: #111;
+  color: white;
+}
+
+.one{
+	width : 75px;
+	border : 2.5px solid black;
+	background-color:rgb(255, 238, 193);
+	text-align : center;
+	font-size : 45px;
+	
+}
+.two{
+	width : 75px;
+	border : 2.5px solid black;
+	background-color:rgb(255, 180, 102);
+	text-align : center;
+	font-size : 45px;
+	
+}
+.nob{
+	vertical-align : right;
+	width : 15px;
+	font-weight : bold;
+	font-size : 20px;
+	
+}
+.nob1{
+	vertical-align : top; 
+	text-align : center;
+	font-weight : bold;
+	font-size : 20px;
+	
+}
+
+
+.cube{
+	width : 100px;
+	height : 100px;
+	border : 4px solid black;
+	background-color:rgb(255, 238, 193);
+	text-align : center;
+	font-size : 55px;
+}
+
+.cube:hover{
+	transition :0.25s;
+	background-color : gray;
+	transform : scale(1.10);
+	cursor : pointer;	
+
+
+}
+
+.butn{
+	width:130px;
+	height:40px;
+	font-size:30px;
+	font-weight:bold;
+	font-family:times new roman;
+	text-align:center;
+	background-color:rgb(0, 147, 255);	
+	position:relative;
+	top:30px;
+	left:500px;
+	border-radius:12px;
+	border : 3px solid black;
+	padding:0px;
+}
+
+.butn:hover{
+	transition :0.25s;
+	transform : scale(1.10);
+	cursor : pointer;
+}
+
+.addc:hover{
+	transition :0.25s;
+	background-color : gray;
+	transform : scale(1.20);
+	cursor : pointer;	
+
+
+}
+
+.mod{
+	width:99%;
+	height:100%;
+	background-color:rgba(0,0,0,0.65);
+	position:absolute;
+	top: 0;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	display:none;
+	
+	
+}
+
+.mod1{
+	width:800px;
+	height:400px;
+	background-color:rgb(175, 205, 255);
+	border-radius: 4px;
+}
+
+.spage{
+	width:99%;
+	height:100%;
+	background-color:rgba(0,0,0,1);
+	position:absolute;
+	top: 0;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	display:none;
+	
+	
+}
+
+#outerBox{
+	width:99%;
+	height:100%;
+	position:absolute;
+	top: 0;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+
+#innerBox{
+	width:400px;
+	height:400px;
+	border-radius: 4px;
+	display:flex;
+	border:3px solid rgb(52, 183, 255);
+	justify-content:center;
+	align-items:center;
+	box-shadow: 0px 4px 10px rgba(0,0,0,0.2),0px 0px 20px rgba(0,0,0,0.2);
+	
+}
+
+.textarealogin{
+	height:35px;
+	width:300px;
+	font-size:16px;
+	font-family:Arial;
+	border-radius:5px;
+	border: 1px solid rgb(70, 172, 255);
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:rgba(52, 183, 255,0.2);
+}
+
+.loginButn{
+	width:305px;
+	height:40px;
+	font-size:20px;
+	font-weight:bold;
+	font-family:times new roman;
+	text-align:center;
+	background-color:rgb(52, 183, 255);	
+	border-radius:5px;
+	border : 2px solid black;
+	margin-top:10px;
+}
+
+.loginButn:hover{
+	transition :0.25s;
+	transform : scale(1.10);
+	cursor : pointer;
+}
+
+#signUpLink:hover{
+	cursor : pointer;
+	color:red;
+}
+
+#outerBoxSignUp{
+	width:99%;
+	height:100%;
+	position:absolute;
+	top: 0;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	display:none;
+}
+
+#innerBoxSignUp{
+	width:400px;
+	height:600px;
+	border-radius: 4px;
+	display:flex;
+	border:3px solid rgb(52, 183, 255);
+	justify-content:center;
+	align-items:center;
+	box-shadow: 0px 4px 10px rgba(0,0,0,0.2),0px 0px 20px rgba(0,0,0,0.2);
+}
+
+.textareasignup{
+	height:35px;
+	width:300px;
+	font-size:16px;
+	font-family:Arial;
+	border-radius:5px;
+	border: 1px solid rgb(70, 172, 255);
+	margin-bottom:5px;
+	margin-top:5px;
+	background-color:rgba(52, 183, 255,0.2);
+}
+
+.signUpButn{
+	width:120px;
+	height:40px;
+	font-size:20px;
+	font-weight:bold;
+	font-family:times new roman;
+	text-align:center;
+	background-color:rgb(52, 183, 255);	
+	border-radius:5px;
+	border : 2px solid black;
+	margin-top:17px;
+	margin-left:17px;
+	margin-right:20px;
+}
+
+.signUpButn:hover{
+	transition :0.25s;
+	transform : scale(1.10);
+	cursor : pointer;
+}
+
+#label1,#label2,#label3,#label4,#label5,#label6,#label7,#label8,#codeLabel,#codeLabel1{
+	display:block;
+	font-size:15px;
+	font-family:times new roman;
+	color:red;
+}
+
+#myProfile{
+	width:350px;
+	height:500px;
+	margin:20px;
+	margin-top:40px;
+	border: 12px solid rgb(52, 183, 255);
+	border-radius:5px;
+	background-color: rgba(52, 183, 255,0.15);
+}
+
+.row:after{
+	display:table;
+	content:"";
+	clear:both;
+}
+
+.column{
+	float:left;
+	padding:15px;
+	width:40%;
+}
+
+.profileElements{
+	margin-top:-5px;
+	margin-left:20px;	
+	font-weight:bold;
+	font-size:20px;
+}
+
+#profileName{
+	font-size:20px;
+	text-align:center;
+	font-weight:bold;
+	margin-top:50px;
+	margin-bottom:30px;
+	text-transform:uppercase;
+}
+
+.spanProfileElements{
+	font-weight:normal;
+	font-size:15px;
+}
+
+#gameCodeBox{
+	height:40px;
+	width:270px;
+	font-size:18px;
+	font-family:Arial;
+	border-radius:5px;
+	border: 2px solid rgb(52, 183, 255);
+	margin-top:20px;
+	margin-left:70px;
+	background-color:rgba(52, 183, 255,0.2);
+}
+
+#gameCodeButton{
+	width:100px;
+	height:40px;
+	font-size:20px;
+	font-weight:bold;
+	font-family:times new roman;
+	text-align:center;
+	background-color:rgb(52, 183, 255);	
+	border-radius:5px;
+	border : 3px solid black;
+	margin-top:30px;
+	margin-left:70px;
+}
+
+#gameCodeButton:hover{
+	transition :0.25s;
+	transform : scale(1.10);
+	cursor : pointer;
+}
+
+#createLabel{
+	font-size:23px;
+	font-weight:bold;
+	margin-left:70px;
+}
+
+.tabLinks{
+	border:none;
+	overflow:hidden;
+	padding: 16px 55.3px;
+	float:left;
+	background-color:rgb(52, 183, 255);
+	cursor:pointer;
+	font-family:times new roman;
+	font-weight:bold;
+	font-size:25px;
+}
+
+#linkTabGroup{
+	margin-top:70px;
+}
+
+
+
